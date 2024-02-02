@@ -36,7 +36,7 @@ export const AdderField = ({
           disabled={field.disabled}
         />
       </Grid>
-      <Grid item sx={{ flexDirection: { md: "column", lg:"row" } }}>
+      <Grid item>
         <Button onClick={onRemove}>Delete</Button>
         <Button onClick={onToggleDisable}>
           {field.disabled ? "Enable" : "Disable"}

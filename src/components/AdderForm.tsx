@@ -2,7 +2,7 @@ import { Dispatch } from "react";
 import { AdderState, Field } from "../types";
 import { Button } from "@mui/material";
 import { AddCircleOutline } from "@mui/icons-material";
-import { AdderField } from "./adderField";
+import { AdderField } from "./AdderField";
 import {
   AdderAction,
   addField,
