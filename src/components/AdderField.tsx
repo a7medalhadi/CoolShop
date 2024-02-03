@@ -1,7 +1,7 @@
 import { Field, Operator } from "../types";
 import { Button, Grid, MenuItem, Select, TextField } from "@mui/material";
 
-interface AdderFieldProps {
+type AdderFieldProps = {
   field: Field;
   onRemove: () => void;
   onToggleDisable: () => void;
