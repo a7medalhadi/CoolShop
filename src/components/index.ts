@@ -1,2 +1,2 @@
-export * from "./AdderForm";
-export * from "./adderField";
+export * from "./Adder";
+export * from "./AdderField";

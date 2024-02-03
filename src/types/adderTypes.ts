@@ -9,4 +9,5 @@ export interface Field {
 
 export interface AdderState {
   fields: Field[];
+  total: number;
 }
